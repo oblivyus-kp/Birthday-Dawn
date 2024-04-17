@@ -4,6 +4,7 @@ body, html {
   text-align: center;
   color:#fff;
   font-size: 64px;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 .space {
@@ -17,7 +18,7 @@ body, html {
   
 
   /* Full height */
-  height: 100%; 
+  height: 101%; 
 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
@@ -28,12 +29,15 @@ body, html {
 
 .page2 {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 20vh;
   background-image: url(images/color.png);
   background-size: cover;
+  max-width: 100%;
 }
 
 .page2 .body{
+  max-width: 500px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -48,7 +52,7 @@ body, html {
 }
 
 .page2 .imgs img{
-  height: 300px;
+  max-height: 300px;
   max-width: 100%;
   border-radius: 40px;
 }
@@ -95,7 +99,7 @@ body {
   border: 0.5px solid black;
   border-radius: 30px;
   height: 72px;
-  width: 250px;
+  width: 275px;
   color: black;
   padding: 15px 32px;
   text-align: center;
@@ -108,6 +112,8 @@ body {
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   cursor: pointer;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bolder;
 }
 
 .confetti-button:hover {
@@ -167,6 +173,10 @@ body {
       transform: rotate(-360deg);
   }
 
+}
+
+.page4 {
+  background-image: url(images/color.png)
 }
 
 
